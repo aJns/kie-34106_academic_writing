@@ -10,10 +10,12 @@
 \usepackage[style=ieee]{biblatex}
 \usepackage{url}
 % \usepackage[finnish]{babel}
-\usepackage{hyperref}
+% \usepackage{hyperref}
+\usepackage{url}
 \usepackage{float}
 \usepackage{listings}
 \usepackage{textcomp}
+\usepackage[xindy]{glossaries}
 
 \graphicspath{{./images/}}
 \bibliography{assignment}
@@ -29,6 +31,8 @@
 
 \date{\today} % Date for the report
 
+\input{glossaries}
+
 \begin{document}
 
 \pagenumbering{Roman}
@@ -41,6 +45,9 @@
 
 \newpage
   \tableofcontents
+
+  \glsaddall
+  \printglossaries{}
 \newpage
 
 \pagenumbering{arabic}

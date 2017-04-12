@@ -1,0 +1,226 @@
+Peer wishes:
+
+"For me, the most difficult thing has been estimating if I've expressed myself
+clearly enough in the text. So, I would appreciate it if you could focus your
+feedback on the intelligibility of the text."
+
+My answer:
+
+My biggest problem was having no background information on the subject. I don't
+really know what the field in question is, what thin films are, why this is
+important or what the applications are. Like your TODO says, this is all
+material that would be in the intro, so just fill that out and you're good to
+go. Otherwise the body of the text was readable. It felt like the text moved a
+bit fast in some places. What I mean by that is that it seemed to go from one
+thing to another without explaining the first thing enough, but that might be
+fixed by adding the intro.
+
+
+
+Questions for peer review
+
+1. Has the writer identified informal language and made vocabulary choices
+suitable for an academic audience? Please point out some of the successful
+examples; also tell the writer where he/she could still have made better
+choices of words (use of synonyms).
+
+A1. I think the whole text is very informal, so it's a bit hard to pick out
+    specific examples. I didn't find any bad word choices either.
+
+    For example the introduction stub is very well written in the informal language:
+    "
+    In this paper a few effective medium approximations for the complex
+    refractive index are introduced. The aim of this literature review is to
+    compare the findings of studies related to the usage of these models with
+    thin film structures and provide an overview of the types of materials
+    these models could be used with.
+    "
+
+2. Has the writer managed to link information successfully between sentences in
+order to maintain a predictable flow of information, employing some linking
+strategies in his/her own text? If yes, please point out a few good examples.
+If not, select a section in the text where you can show exactly how the writer
+could have linked the information more successfully.
+
+A2. The flow of text is also good. Here's one example:
+
+    "
+    Effective medium approximations or EMAs are models made to predict the
+    effective properties of heterogeneous materials. So, the purpose of these
+    EMAs is to homogenize a physical property, e.g. dielectric constant, of a
+    material composed of two or more constituent materials with different
+    physical properties.
+    "
+
+    Here, the start of the next sentence links it with the previous one "So,
+    the purpose of these EMAs..."
+
+    Here's another example:
+
+    "
+    Relating to this Maxwell Garnett model, Sihvola introduced a model for
+    describing the optical properties of elliptical inclusions. From this model
+    for elliptical inclusions Sihvola derived a model for the case of
+    cylindrical inclusions. This model is called the 2-dimensional Maxwell
+    Garnett model...
+    "
+
+    In this case, the first sentence linking works well: "From this model..."
+    But in the second sentence the use of "This model..." can be a bit confusing,
+    and it would be easier to read if it went with "that model".
+
+3. Has the writer written his/her paragraphs with predictable flow, e.g.
+general-specific, and clear topical focus? Please show the writer where he/she
+has been successful, and where he/she could have done better.
+
+A3. On the whole the paragraphs work well. Often, one model is discussed in one
+    paragraph, and another in the next one.
+
+    This is an example of a set that works well:
+    "
+    Effective medium approximations or EMAs are models made to predict the
+    effective properties of heterogeneous materials. So, the purpose of these
+    EMAs is to homogenize a physical property, e.g. dielectric constant, of a
+    material composed of two or more constituent materials with dierent
+    physical properties. In this chapter some of the most commonly used EMAs
+    for the permittivity of heterogeneous thin films are introduced and the
+    intended use cases for these EMAs are discussed briefly.
+    
+    The first model introduced here is the Volume Averaging theory or VAT. VAT
+    seems to be an EMA that effectively describes the optical properties of a
+    few different types of heterogeneous materials [1, 2]. VAT was originally
+    derived by del Rio and Whitaker for inclusions of arbitrary shape of one
+    material embedded in a different background medium. The main assumption
+    made in the VAT model is that the arbitrarily shaped inclusions form a
+    relatively isotropic composite and that the volume fraction of the
+    materials is effectively homogeneous throughout the composite.  [3, 4]
+    "
+
+    First there's a general explanation of EMAs, and in the next paragraph we
+    dive into one specific model.
+    
+
+    This paragraph however drags on a bit:
+
+    "
+   In general, EMAs have some limitations as they try to approximate a
+   heterogeneous medium as a homogeneous one. For example, according to
+   Hutchinson et al. the scattering from the pores is assumed to be negligible
+   in most EMAs. Because of this, there usually is a minimum wavelength after
+   which scattering from the pores becomes too large for the model to
+   accurately predict the optical properties of the medium. [1] According to
+   Sihvola, as a rule of thumb, the minimum wavelength used should be 10 times
+   greater than the size of the inclusion [6]. Hutchinson et al. also give a
+   general rule for the minimum wavelength stating that <formula here> for the
+   EMAs to work [1]. The ratio of thin film length to the size of the
+   inclusions has also been shown to affect the optical properties of porous
+   thin films [1, 2].  Although, according to Garahan et al., this phenomenon
+   is only related to the interference between different pores and is present
+   only because of the numerical modeling methods used in the study. So, this
+   limitation shouldn't be present when dealing with a real thin film with
+   multiple pores and not a mathematical model of a simplified system. [2] This
+   analysis by Garahan et al. seems to hold at least when looking at the data
+   by Hulkkonen et al. where the ratio of film thickness to pore diameter is
+   almost unity but the 2D maxwell Garnett model was able to predict the
+   porosities of the used samples from their optical properties [9].
+   "
+
+   It would benefit from being divided into two smaller paragraphs.
+
+4. Does the introduction explain the significance and purpose of the text? If
+yes, point out how exactly. If not, mention what it is lacking.
+
+A4. The intro is just a stub, so there's nothing to comment on.
+
+5. Does the abstract concisely describe the important parts of the text? If
+yes, in what ways exactly? If not, what would you suggest for improving it?
+
+A5. No abstract.
+
+6. Does the conclusion underline the key points or findings of the text? If
+yes, how exactly? If not, what would you suggest for improvement?
+
+A6. No conclusion.
+
+7. Has the writer designed a good table of contents? If yes, point out what is
+especially good about it. If not, what is still missing?
+
+A7. The TOC works, but is maybe a bit high level? It could be worth a try to
+    add some subsections to it to divide the sections.
+
+8. Has the writer avoided unnecessary and undefined use of jargon that makes a
+text harder to understand?
+
+A8. It's not too bad, but "thin film" for example isn't explained, but
+    hopefully that'll be defined in the intro.
+
+9. Has the writer managed to use consistent formatting and linguistic
+conventions for citation; e.g. author-date or numerical citation, reporting
+verbs, punctuation of citations? If yes, point out a few good examples. If not,
+suggest how the writer can still improve the text.
+
+A9. Formatting is consistent, but that's no surprise because it's done with LaTeX.
+    Punctuation and linguistic conventions are followed too. 
+
+    Here's one good example:
+    "
+    The first model introduced here is the Volume Averaging theory or VAT. VAT
+    seems to be an EMA that effectively describes the optical properties of a
+    few different types of heterogeneous materials [1, 2].
+    "
+
+    Here's another:
+    "
+    In general, EMAs have some limitations as they try to approximate a
+    heterogeneous medium as a homogeneous one. For example, according to
+    Hutchinson et al. the scattering from the pores is assumed to be negligible
+    in most EMAs. Because of this, there usually is a minimum wavelength after
+    which scattering from the pores becomes too large for the model to
+    accurately predict the optical properties of the medium. [1]
+    "
+
+
+10. Has the writer managed to paraphrase and summarize source material without
+plagiarizing from the original text? Please point out a few successful
+examples, or else tell how the writer could improve this or that piece of
+his/her text in terms of paraphrasing and summarizing.
+
+A10. The paraphrasing and summarising also seems to be on point, although I
+     didn't look a the actual sources to confirm this.
+
+     Here's one example of good paraphrasing:
+     "
+     In general, EMAs have some limitations as they try to approximate a
+     heterogeneous medium as a homogeneous one. For example, according to
+     Hutchinson et al. the scattering from the pores is assumed to be
+     negligible in most EMAs.  Because of this, there usually is a minimum
+     wavelength after which scattering from the pores becomes too large for the
+     model to accurately predict the optical properties of the medium. [1]
+     "
+
+    Here's an example of good summarizing:
+    "
+    For spherical inclusions, Hutchinson et al., found that the 3D Maxwell
+    Garnett model did what it was intended to do, and accurately predicted the
+    optical properties for these inclusions. However their numerical modeling
+    also showed that, as with the 2D Maxwell Garnett model, the 3D Maxwell
+    Garnett model wasn't the best at predicting the imaginary part of the
+    refractive index. Although the imaginary part wasn't too far o from the
+    values predicted by the 3D MGT, the nonsymmetric Bruggeman model described
+    it more accurately. [1]
+    "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

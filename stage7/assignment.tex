@@ -19,6 +19,34 @@
 \graphicspath{{./images/}}
 \bibliography{assignment}
 
+
+
+\setlength\textwidth{15cm}  % 15*24cm text area leaves 6cm horiz margins and 5.7cm vertical
+\setlength\textheight{24cm} % 
+
+\setlength\topmargin{0.0cm} % inner margins
+\setlength\voffset{-1.25cm} % outer vertical   margins
+\setlength\hoffset{0cm}     % outer horizontal margins
+\setlength\oddsidemargin{1cm}  % inner margins for odd  pages
+\setlength\evensidemargin{1cm} % inner margins for even pages
+\setlength\brokenpenalty{1000} 
+\renewcommand{\baselinestretch}{1.2}
+
+\setlength\headheight{15pt} % 
+\setlength\headsep{0.8cm}   % space below header
+\setlength\footskip{30pt}   % space above the footnote
+\newlength\chapterspace{}
+%\setlength\chapterspace{0.0cm}
+\setlength\chapterspace{0.4cm}
+\newcommand\chapterheadbefore{26pt}
+\newcommand\chapterheadafter{42pt}
+\newcommand\chapfigname{\thechapter}
+
+% Paragraphs should be either indented or have vertical space (skip)
+% between them. You can select: (0.0cm + 12pt) or (0.5cm + 0pt)
+\setlength\parindent{0.0cm} % change to 0 or 0.5cm if needed
+\setlength\parskip{12pt}    % change to 0pt or 12pt if needed
+
 %----------------------------------------------------------------------------------------
 %	DOCUMENT INFORMATION
 %----------------------------------------------------------------------------------------
@@ -52,7 +80,8 @@
 %----------------------------------------------------------------------------------------
 
 \input{introduction}
-\input{review}
+\input{iot}
+\input{health-care}
 \input{conclusion}
 
 %----------------------------------------------------------------------------------------

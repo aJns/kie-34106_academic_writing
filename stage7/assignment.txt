@@ -1,0 +1,153 @@
+IoT Applications in Healthcare
+A Literature Review
+
+Jonas Nikula
+13/04/2017
+
+Abstract
+This is a literature review of the articles [1] and [2]. The purpose of this literature review is to present
+an overview of the present and potential applications of IoT (Internet of Things) in the health care field
+based primarily on the aforementioned articles.
+
+Contents
+1 Introduction
+
+1
+
+2 The internet of things
+
+1
+
+3 IoT applications in health care
+
+2
+
+4 Conclusions
+
+2
+
+I
+
+1
+
+Introduction
+
+In recent years the concept of IoT (internet of things) has been gaining a lot of interest, especially in the
+field of electronics and software development. Simply stated, the internet of things means the increased
+linking of embedded systems with each other and the internet. Embedded systems mean the electronics
+within devices, buildings and vehicles, as opposed to the general computing devices like computers and
+smart phones that we use every day.
+The reason IoT has been gaining as much interest as it has is because it enables automation and
+collection of data on a whole new level. This can mean tracking inventories accurately in real time,
+or optimizing heating and air conditioning depending on how many people are at home and in which
+rooms. It’s not hard to imagine that this kind of monitoring would be immensely useful in health care.
+Doctors wouldn’t have to rely on a 30 minute visit to make a diagnosis, instead they could check the
+data collected during the week to see if there are signs of illness.
+To better understand the applications of IoT, I first aim to define IoT and explore the technologies
+that enable it section 2. After that we’ll look at how IoT can be applied tackle challenges in the health
+care domain in section 3. Finally I present my conclusions in section 4.
+
+2
+
+The internet of things
+
+The term “internet of things” or IoT has become quite a buzzword in recent years. One consequence of
+achieving buzzword status is that the term can become a bit unclear, which is somewhat true with IoT;
+Although the high level concept and basics are pretty clear, a lot of researchers to have their own opinion
+on how wide the term is, and what technologies are encompassed by it and which are separate from it.
+In this section I’ll try to explain the concept in a way that I think most people working in electronics or
+software development can agree on.
+In my opinion the predecessor of the modern concept of IoT was and is the idea of “wireless sensor
+networks” or WSNs. The idea of WSNs is to deploy large numbers of simple and cheap networked smart
+sensors that effectively monitor an area. As the military applications of that kind of technology are
+self-evident, US military research agency DARPA sponsored programs researching sensor networks for
+use on the battlefield. Back then the sensors were usually stationary. Today the applications of WSNs
+have thankfully broadened to civilian fields, like rescue and environmental monitoring. Modern WSN
+are also increasingly mobile, the sensors being carried by robots or drones. [3]
+So WSNs are one part of the internet of things. Put simply, they’re the eyes and ears of the concept,
+they collect the data. But collecting the data is not enough, somebody or something also has to make
+sense of it. Machine learning methods can take the massive amounts of data that WSNs generate, and
+pick out patterns and trends from it. They can predict future conditions form present ones, or identify
+and track people from images using computer vision. [4] To be clear though, machine learning is separate
+concept from IoT, and it has a multitude of other fields where it can be applied. However, machine
+learning is vital to the successful application of IoT.
+The third part that makes IoT possible is the improvement of communications technologies, especially
+the improvement of wireless communications. Most IoT applications would be impractical if they were
+constrained by physical wires. The internet of things also benefits immensely from open standards and
+protocols like IP and HTTP that have been widely adopted because of the internet. This enables products
+from different manufacturers to work seamlessly together.
+Modern communications technologies combined with increasing computing power in small chips has
+also enabled distributed computing. Distributed computing means that instead of sending all the data to
+a central server for processing, a WSN for example can have multiple (less powerful) processing nodes in
+the network. This lessens the strain that data transfer has on the network, and also makes the processing
+more robust because there isn’t a single point of failure. [5]
+So to sum up, IoT consists of data collection, connectivity and processing. Another part that we
+haven’t mentioned is actuating, or acting upon the environment instead of just monitoring it. It might
+be a considered a big part of IoT in the future, but at the moment a lot of research on IoT isn’t focused
+on it, and it seems that most researchers don’t consider it a part of the concept.
+
+1
+
+3
+
+IoT applications in health care
+
+Because IoT is in itself a term that encompasses many things, and because it has many applications
+in health care, it’s beneficial to approach the subject by dividing its applications into a few different
+categories.
+IoT research and applications in the health care domain can be divided into different categories
+depending on the point of view. For example the in the article [2] the authors divide the research of IoT
+in health care in to three different “levels” of research:
+Topology is concerned with the actual devices and their connections and tasks. Topology research
+might for example try to figure out how to transfer the data from a patient’s wearable to the cloud
+for processing.
+Architecture research is more focused on the organization of devices and the software and protocol
+they use. In architecture research an important goal might be defining what protocol the devices
+use to transfer the data.
+Platform research tries to create a good environment for IoT operation and development. It does this
+by developing standards and reusable software libraries.
+All of these research fields are concerned with IoT applications in health care, but they differ on
+which part of the ecosystem they research. IoT applications can also be categorized by what kind of
+service they aim to provide. For example, the challenges and requirements in treating a certain chronic
+afliction can be very different than trying to look out for early symptoms in preventive care. Age and
+other factors that vary between patients might also pose different needs. For example, older patients are
+not as technologically inclined, and thus need extremely clear and simple to use devices. The ultimate
+goal being that the device would be practically invisible to the user.
+
+4
+
+Conclusions
+
+References
+[1]
+
+N. Bui and M. Zorzi, “Health care applications: a solution based on the internet of things,” International Symposium on Applied Sciences in Biomedical and Communication Technologies, pp. 0–4,
+2011. doi: 10.1145/2093698.2093829. [Online]. Available: http://dl.acm.org/citation.cfm?
+id=2093829.
+
+[2]
+
+S. M. R. Islam, D. Kwak, H. Kabir, M. Hossain, and K.-S. Kwak, “The Internet of Things for
+Health Care : A Comprehensive Survey,” Access, IEEE, vol. 3, pp. 678–708, 2015, issn: 2169-3536.
+doi: 10.1109/ACCESS.2015.2437951. [Online]. Available: http://ieeexplore.ieee.org/xpl/
+articleDetails.jsp?arnumber=7113786.
+
+[3]
+
+C. Y. Chong and S. P. Kumar, “Sensor networks: Evolution, opportunities, and challenges,” Proceedings of the IEEE, vol. 91, no. 8, pp. 1247–1256, 2003, issn: 00189219. doi: 10.1109/JPROC.
+2003.814918.
+
+[4]
+
+J. Gubbi, R. Buyya, S. Marusic, and M. Palaniswami, “Internet of Things (IoT): A vision, architectural elements, and future directions,” Future Generation Computer Systems, vol. 29, no. 7,
+pp. 1645–1660, 2013, issn: 0167739X. doi: 10.1016/j.future.2013.01.010. arXiv: 1207.0203.
+[Online]. Available: http://dx.doi.org/10.1016/j.future.2013.01.010.
+
+[5]
+
+B. Yu, P. Scerri, and K. Sycara, “Scalable and Reliable Data Delivery in Mobile Ad Hoc Sensor
+Networks,” Event (London), pp. 1071–1078, 2006.
+
+2
+
+

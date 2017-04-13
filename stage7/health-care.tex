@@ -1,4 +1,4 @@
-\section{IoT applications in health care}
+\section{IoT applications and challenges in health care}
 \label{sec:iot-health}
 
 Because IoT is in itself a term that encompasses many things, and because it
@@ -38,8 +38,6 @@ technologically inclined, and thus need extremely clear and simple to use
 devices. Again, the article~\cite{Islam2015} defines many categories by
 service. We'll take a look at a few of the different service types:
 
-
-% TODO: check the below descriptions using real sources
 \begin{description}
   \item[Ambient assisted living or AAL] is meant to enable elderly or otherwise
     disabled individuals to live independently for longer and/or more easily
@@ -55,7 +53,7 @@ service. We'll take a look at a few of the different service types:
     doctor of changes in the patient's status. Using voice and facial
     recognition, the AI could for example open doors for the patient, operate
     other devices or fetch items, all of which could be hard for the patient to
-    do on their own. Using IoT the patients relatives could also easily check
+    do on their own. Using IoT the patient's relatives could also easily check
     on them and keep in touch.~\cite{Istepanian2011}
 
   \item[Adverse drug reaction or ADR] is an injury caused by medication. It can
@@ -69,8 +67,56 @@ service. We'll take a look at a few of the different service types:
     be dangerous combined with another drug that the patient is taking, it
     warns the patient.
 
-  \item[Indirect emergency healthcare or IEH] 
-
-  \item[Community healthcare] 
+  \item[Community healthcare] is a concept where a network is created to cover
+    a community or area. Often the area or community in question is a rural
+    one, where access to health care might be very limited. A community
+    healthcare system would enable the patients to be served by a ``virtual
+    hospital''. Their health status could be monitored remotely, and they could
+    get access to medical advice without traveling long distances. The
+    article~\cite{Rohokale2011} proposes such a system, which is especially
+    designed to be operated in developing countries. The system is energy
+    efficient and robust, because all the nodes can communicate and transfer
+    data through each other.
 
 \end{description}
+
+IoT applications in health care also face many challenges. Many are problems
+that are faced in all IoT application domains, but some are especially
+important to take into account in the health care domain. As many of the
+proposed applications are safety critical, they have to be very reliable and be
+able to handle outages. Because of this, and also because health care systems
+have a lot of confidential data, the security of IoT systems has to carefully
+considered. While there's really no good ``one size fits all'' approach to IoT
+security, basic things to consider are confidentiality, authentication and
+availability. Availability in the security context means that the system should
+continue working at an adequate level even if it's under a denial-of-service
+attack. Authentication means ensuring the identity of other nodes in the
+network, so that confidential data isn't sent to an attacker posing as a node.
+This also requires good encryption of the data transfer. Finally,
+confidentiality that the system only allows access to the data by parties that
+are allowed to see it, like the doctor and the patient.~\cite{Islam2015} All
+these challenges are aggravated by general IoT requirements; IoT devices
+usually have to be mobile, energy efficient and small, which constrains the
+solutions available.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
